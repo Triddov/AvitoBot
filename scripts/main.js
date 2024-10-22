@@ -59,7 +59,6 @@ bot.on("text", async message => {
         await bot.sendMessage(message.chat.id, `${fields["giveRef"]}${URL_TO_BOT}?start=${message.from.id}`)
     }
 
-
 })
 
 
